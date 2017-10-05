@@ -1,0 +1,631 @@
+1506647891321	geckodriver	INFO	geckodriver 0.19.0
+1506647891327	geckodriver	INFO	Listening on 127.0.0.1:40930
+1506647892372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fC6fDzgaiau2"
+1506647895584	Marionette	INFO	Enabled via --marionette
+
+(firefox:2963): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2963): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2963): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2963): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3021): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3021): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3021): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3021): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506647901093	Marionette	INFO	Listening on port 35525
+1506647901109	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506647901139	Marionette	DEBUG	loaded listener.js
+1506647901199	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506647902000	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506647902001	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506647902456	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gws_rd=ssl"
+1506647903177	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506647903179	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gws_rd=ssl"
+1506647903181	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gws_rd=ssl"
+1506647904475	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gws_rd=ssl"
+1506647905582	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com.vn/search?source=hp&q=evolable+asia&oq=evolable+asia&gs_l=psy-ab.3...2011.2056.0.2084.13.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..13.0.0....0.xPwPagHanUY"
+1506647905814	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com.vn/search?source=hp&q=evolable+asia&oq=evolable+asia&gs_l=psy-ab.3...2011.2056.0.2084.13.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..13.0.0....0.xPwPagHanUY"
+1506647905826	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1506647905827	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com.vn/search?source=hp&q=evolable+asia&oq=evolable+asia&gs_l=psy-ab.3...2011.2056.0.2084.13.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..13.0.0....0.xPwPagHanUY"
+1506647905898	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com.vn/search?source=hp&q=evolable+asia&oq=evolable+asia&gs_l=psy-ab.3...2011.2056.0.2084.13.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..13.0.0....0.xPwPagHanUY"
+1506647905898	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com.vn/search?source=hp&q=evolable+asia&oq=evolable+asia&gs_l=psy-ab.3...2011.2056.0.2084.13.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..13.0.0....0.xPwPagHanUY"
+1506647905968	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1506647906358	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gws_rd=ssl"
+1506647906366	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gws_rd=ssl"
+1506647906952	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com.vn/search?source=hp&q=python&oq=python&gs_l=psy-ab.3...348.364.0.388.6.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..6.0.0....0.af-WOXDnz_w"
+1506647907126	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com.vn/search?source=hp&q=python&oq=python&gs_l=psy-ab.3...348.364.0.388.6.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..6.0.0....0.af-WOXDnz_w"
+1506647907126	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com.vn/search?source=hp&q=python&oq=python&gs_l=psy-ab.3...348.364.0.388.6.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..6.0.0....0.af-WOXDnz_w"
+1506647907343	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gws_rd=ssl"
+1506647907350	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gws_rd=ssl"
+1506647908128	Marionette	INFO	New connections will no longer be accepted
+[Child 3021] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1506648209641	geckodriver	INFO	geckodriver 0.19.0
+1506648209643	geckodriver	INFO	Listening on 127.0.0.1:39684
+1506648210724	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dMOiduN5z3aq"
+1506648211386	Marionette	INFO	Enabled via --marionette
+
+(firefox:3838): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3838): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3838): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3838): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3895): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3895): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3895): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3895): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506648213921	Marionette	INFO	Listening on port 58342
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506648213937	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506648213965	Marionette	DEBUG	loaded listener.js
+1506648214019	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506648216721	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506648216722	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506648216821	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gws_rd=ssl"
+1506648217135	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506648217137	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gws_rd=ssl"
+1506648217138	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gws_rd=ssl"
+1506648217495	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gws_rd=ssl"
+1506648218291	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com.vn/search?source=hp&q=evolable+asia&oq=evolable+asia&gs_l=psy-ab.3...617.644.0.672.13.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..13.0.0....0.WRp_IEIlRMc"
+1506648218429	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com.vn/search?source=hp&q=evolable+asia&oq=evolable+asia&gs_l=psy-ab.3...617.644.0.672.13.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..13.0.0....0.WRp_IEIlRMc"
+1506648218440	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1506648218441	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com.vn/search?source=hp&q=evolable+asia&oq=evolable+asia&gs_l=psy-ab.3...617.644.0.672.13.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..13.0.0....0.WRp_IEIlRMc"
+1506648218923	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com.vn/search?source=hp&q=evolable+asia&oq=evolable+asia&gs_l=psy-ab.3...617.644.0.672.13.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..13.0.0....0.WRp_IEIlRMc"
+1506648218926	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com.vn/search?source=hp&q=evolable+asia&oq=evolable+asia&gs_l=psy-ab.3...617.644.0.672.13.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..13.0.0....0.WRp_IEIlRMc"
+1506648219184	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1506648219693	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gws_rd=ssl"
+1506648219699	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gws_rd=ssl"
+1506648220444	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.com.vn/search?source=hp&q=python&oq=python&gs_l=psy-ab.3...439.449.0.465.6.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..6.0.0....0.WsrTpyAsaIY"
+1506648220783	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.com.vn/search?source=hp&q=python&oq=python&gs_l=psy-ab.3...439.449.0.465.6.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..6.0.0....0.WsrTpyAsaIY"
+1506648220784	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.com.vn/search?source=hp&q=python&oq=python&gs_l=psy-ab.3...439.449.0.465.6.1.0.0.0.0.0.0..0.0.dummy_maps_web_fallback...0...1.1.64.psy-ab..6.0.0....0.WsrTpyAsaIY"
+1506648220914	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gws_rd=ssl"
+1506648221197	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1506648221200	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gws_rd=ssl"
+1506648221202	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gws_rd=ssl"
+1506648221229	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gws_rd=ssl"
+1506648222008	Marionette	INFO	New connections will no longer be accepted
+[Child 3895] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1506933491527	geckodriver	INFO	geckodriver 0.19.0
+1506933491533	geckodriver	INFO	Listening on 127.0.0.1:58865
+1506933492658	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0vS63TPiHpGJ"
+1506933496105	Marionette	INFO	Enabled via --marionette
+
+(firefox:30435): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30435): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:30435): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30435): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30493): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30493): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506933500749	Marionette	INFO	Listening on port 51874
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506933501403	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506933501434	Marionette	DEBUG	loaded listener.js
+1506933501542	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506933502015	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506933502015	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506933502495	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933502498	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933502500	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933502500	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933502502	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933503473	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933503479	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933503480	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933503484	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933503485	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933503488	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933503499	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933503830	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1506933504816	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1506933504823	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1506933504965	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933504967	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1506933504967	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506933504967	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1506933504967	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1506933505156	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933505161	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933505190	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933506253	Marionette	INFO	New connections will no longer be accepted
+1506933506492	geckodriver	INFO	geckodriver 0.19.0
+1506933506495	geckodriver	INFO	Listening on 127.0.0.1:53664
+1506933507582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.l6NUqkIracAJ"
+1506933508267	Marionette	INFO	Enabled via --marionette
+
+(firefox:30546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:30546): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30546): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30601): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30601): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506933510668	Marionette	INFO	Listening on port 59397
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506933510746	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506933510774	Marionette	DEBUG	loaded listener.js
+1506933510888	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506933511239	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506933511240	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506933511506	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933511507	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933511509	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933511509	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933511511	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933512726	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933512731	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933512732	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933512738	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933512741	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933512745	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933512781	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933513031	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1506933514315	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1506933514320	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1506933514483	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933514495	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1506933514495	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506933514496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1506933514496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1506933514496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1506933514805	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933514808	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933514841	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933515901	Marionette	INFO	New connections will no longer be accepted
+Sandbox: Unexpected EOF, op 0 flags 01101 path /tmp/GeckoChildCrash30601.extra
+1506933516063	geckodriver	INFO	geckodriver 0.19.0
+1506933516066	geckodriver	INFO	Listening on 127.0.0.1:60044
+1506933517152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lGaWPJhqPWll"
+1506933517883	Marionette	INFO	Enabled via --marionette
+
+(firefox:30656): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30656): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:30656): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30656): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30716): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30716): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30716): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30716): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506933520523	Marionette	INFO	Listening on port 59585
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506933520568	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506933520596	Marionette	DEBUG	loaded listener.js
+1506933520654	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506933521008	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506933521008	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506933521237	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933521241	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933521242	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933521243	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933521244	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933522202	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933522206	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933522207	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933522212	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933522212	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933522215	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933522227	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933522450	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1506933523459	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1506933523464	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1506933523605	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933523609	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1506933523609	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506933523609	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1506933523609	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1506933523610	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1506933523768	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933523771	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933523802	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933524863	Marionette	INFO	New connections will no longer be accepted
+1506933525025	geckodriver	INFO	geckodriver 0.19.0
+1506933525029	geckodriver	INFO	Listening on 127.0.0.1:41676
+1506933526118	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6I5PL5NnVLDn"
+1506933526841	Marionette	INFO	Enabled via --marionette
+
+(firefox:30772): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30772): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:30772): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30772): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30829): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30829): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30829): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30829): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506933529689	Marionette	INFO	Listening on port 50836
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506933529737	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506933529765	Marionette	DEBUG	loaded listener.js
+1506933529822	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506933530189	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506933530189	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506933530452	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933530457	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933530458	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933530479	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933530482	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933533231	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933533236	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933533237	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933533243	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933533247	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933533250	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933533287	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933533504	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1506933533743	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1506933533747	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1506933534036	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933534039	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1506933534039	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506933534039	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1506933534040	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1506933534040	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1506933534195	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933534198	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933534233	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933535295	Marionette	INFO	New connections will no longer be accepted
+1506933535505	geckodriver	INFO	geckodriver 0.19.0
+1506933535508	geckodriver	INFO	Listening on 127.0.0.1:34739
+1506933536594	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ajAqbscBKZxE"
+1506933537323	Marionette	INFO	Enabled via --marionette
+
+(firefox:30882): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30882): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:30882): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30882): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30939): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30939): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30939): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:30939): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506933539957	Marionette	INFO	Listening on port 58124
+1506933540123	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506933540154	Marionette	DEBUG	loaded listener.js
+1506933540218	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506933540578	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506933540578	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506933540811	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933540830	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933540832	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933540832	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933540834	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933541825	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933541829	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933541830	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933541834	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933541840	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933541843	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933541856	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933542089	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1506933543451	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1506933543456	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1506933543837	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933543840	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1506933543840	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506933543840	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1506933543841	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1506933543841	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1506933544002	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933544005	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933544040	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933545105	Marionette	INFO	New connections will no longer be accepted
+Sandbox: Unexpected EOF, op 0 flags 01101 path /tmp/GeckoChildCrash30939.extra
+1506933545297	geckodriver	INFO	geckodriver 0.19.0
+1506933545300	geckodriver	INFO	Listening on 127.0.0.1:52909
+1506933546390	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.o8yZaNxfuVna"
+1506933547145	Marionette	INFO	Enabled via --marionette
+
+(firefox:30992): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30992): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:30992): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:30992): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:31046): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:31046): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:31046): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:31046): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506933549744	Marionette	INFO	Listening on port 46774
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506933549822	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506933549852	Marionette	DEBUG	loaded listener.js
+1506933549907	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506933550301	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506933550301	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506933551255	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933551259	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933551261	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933551261	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506933551263	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933553215	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933553221	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933553225	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933553229	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933553230	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933553233	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933553246	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506933553424	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.facebook.com/"
+1506933553676	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1506933553680	Marionette	DEBUG	Received DOM event "unload" for "https://www.facebook.com/"
+1506933553975	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933553978	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1506933553978	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506933553978	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1506933553979	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1506933553979	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1506933554129	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933554133	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/common/referer_frame.php"
+1506933554166	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/login.php?login_attempt=1&lwv=110"
+1506933555231	Marionette	INFO	New connections will no longer be accepted
+1506938606798	geckodriver	INFO	geckodriver 0.19.0
+1506938606802	geckodriver	INFO	Listening on 127.0.0.1:36185
+1506938607898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.9HRLwRX1yoaN"
+1506938608609	Marionette	INFO	Enabled via --marionette
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2658): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2658): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2658): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:2658): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506938611694	Marionette	INFO	Listening on port 46731
+1506938611777	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506938611809	Marionette	DEBUG	loaded listener.js
+1506938611892	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506938612803	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506938612803	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506938612938	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=9A7SWe-4B6vY8gfy3pCIBg"
+1506938614507	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506938614509	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=9A7SWe-4B6vY8gfy3pCIBg"
+1506938614511	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=9A7SWe-4B6vY8gfy3pCIBg"
+1506938614897	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=9A7SWe-4B6vY8gfy3pCIBg"
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2580): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506938637666	geckodriver	INFO	geckodriver 0.19.0
+1506938637668	geckodriver	INFO	Listening on 127.0.0.1:38693
+1506938638760	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.n7zTzk8erVI4"
+1506938639414	Marionette	INFO	Enabled via --marionette
+
+(firefox:2791): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2791): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:2791): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:2791): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3050): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3050): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3050): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3050): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506938642004	Marionette	INFO	Listening on port 46986
+1506938642078	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506938642106	Marionette	DEBUG	loaded listener.js
+1506938642186	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506938642872	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506938642872	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506938642984	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=Eg_SWZzsGK7Y8gf11ZUY"
+1506938643284	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506938643288	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=Eg_SWZzsGK7Y8gf11ZUY"
+1506938643290	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=Eg_SWZzsGK7Y8gf11ZUY"
+1506938643680	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=Eg_SWZzsGK7Y8gf11ZUY"
+1506938643703	Marionette	INFO	New connections will no longer be accepted
+[Child 3050] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-Zj9gRO/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1506938649070	geckodriver	INFO	geckodriver 0.19.0
+1506938649073	geckodriver	INFO	Listening on 127.0.0.1:36446
+1506938650162	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZwGZ0aCTSoIO"
+1506938650875	Marionette	INFO	Enabled via --marionette
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3168): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3168): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3168): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:3168): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506938653354	Marionette	INFO	Listening on port 39563
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506938653376	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506938653403	Marionette	DEBUG	loaded listener.js
+1506938653469	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506938654242	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506938654243	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506938654355	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=HQ_SWdO7MLPY8gfl-IzwBA"
+1506938654658	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506938654660	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=HQ_SWdO7MLPY8gfl-IzwBA"
+1506938654662	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=HQ_SWdO7MLPY8gfl-IzwBA"
+1506938655778	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=HQ_SWdO7MLPY8gfl-IzwBA"
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:3114): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1507083818920	geckodriver	INFO	geckodriver 0.19.0
+1507083818948	geckodriver	INFO	Listening on 127.0.0.1:32787
+1507083820074	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FEpStleiav6b"
+1507083822202	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507083823876	Marionette	INFO	Enabled via --marionette
+
+(firefox:6567): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6567): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6567): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6567): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6619): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6619): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6619): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6619): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1507083829301	Marionette	INFO	Listening on port 37838
+1507083829456	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507083829491	Marionette	DEBUG	Register listener.js for window 2147483649
+1507083829608	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507083831150	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507083831151	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507083831330	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=NUbUWZ_pPK_o8Ae9zosw"
+1507083831702	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507083832125	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=NUbUWZ_pPK_o8Ae9zosw"
+1507083832145	Marionette	INFO	New connections will no longer be accepted
+1507083858435	geckodriver	INFO	geckodriver 0.19.0
+1507083858438	geckodriver	INFO	Listening on 127.0.0.1:45323
+1507083859550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.NTCqSfpoCJFe"
+1507083859690	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507083860282	Marionette	INFO	Enabled via --marionette
+
+(firefox:6701): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6701): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6701): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6701): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6754): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6754): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6754): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6754): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1507083862770	Marionette	INFO	Listening on port 42078
+1507083862866	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507083862897	Marionette	DEBUG	Register listener.js for window 2147483649
+1507083862962	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507083864346	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507083864346	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507083864440	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=V0bUWZarDrPo8Af_pIegAQ"
+1507083864769	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1507083865209	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.com.vn/?gfe_rd=cr&dcr=0&ei=V0bUWZarDrPo8Af_pIegAQ"
+1507083865226	Marionette	INFO	New connections will no longer be accepted
+[Child 6754] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-9nswvH/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6754] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-9nswvH/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6754] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9nswvH/firefox-56.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

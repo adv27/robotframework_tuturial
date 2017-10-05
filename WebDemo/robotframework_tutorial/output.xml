@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171002 10:43:27.005" generator="Robot 3.0.2 (Python 2.7.6 on linux2)">
+<suite source="/home/anhvd/Downloads/WebDemo/robotframework_tutorial/StringDemo.robot" id="s1" name="StringDemo">
+<test id="s1-t1" name="StringAndLists">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>"Test Value"</arg>
+</arguments>
+<assign>
+<var>${SOME_VALUE}</var>
+</assign>
+<msg timestamp="20171002 10:43:27.025" level="INFO">${SOME_VALUE} = "Test Value"</msg>
+<status status="PASS" endtime="20171002 10:43:27.025" starttime="20171002 10:43:27.025"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${SOME_VALUE}</arg>
+</arguments>
+<msg timestamp="20171002 10:43:27.026" level="INFO">"Test Value"</msg>
+<status status="PASS" endtime="20171002 10:43:27.026" starttime="20171002 10:43:27.026"></status>
+</kw>
+<kw name="Split String" library="String">
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<arguments>
+<arg>${SOME_VALUE}</arg>
+<arg>${SPACE}</arg>
+</arguments>
+<assign>
+<var>@{WORDS}</var>
+</assign>
+<msg timestamp="20171002 10:43:27.026" level="INFO">@{WORDS} = [ "Test | Value" ]</msg>
+<status status="PASS" endtime="20171002 10:43:27.026" starttime="20171002 10:43:27.026"></status>
+</kw>
+<kw name="Get From List" library="Collections">
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<arguments>
+<arg>@{WORDS}</arg>
+<arg>0</arg>
+</arguments>
+<assign>
+<var>${FIRST}</var>
+</assign>
+<msg timestamp="20171002 10:43:27.027" level="FAIL">Keyword 'Collections.Get From List' expected 2 arguments, got 3.</msg>
+<status status="FAIL" endtime="20171002 10:43:27.027" starttime="20171002 10:43:27.026"></status>
+</kw>
+<status status="FAIL" endtime="20171002 10:43:27.027" critical="yes" starttime="20171002 10:43:27.025">Keyword 'Collections.Get From List' expected 2 arguments, got 3.</status>
+</test>
+<status status="FAIL" endtime="20171002 10:43:27.027" starttime="20171002 10:43:27.005"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="StringDemo" pass="0">StringDemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

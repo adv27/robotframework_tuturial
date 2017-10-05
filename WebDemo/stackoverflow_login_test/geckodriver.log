@@ -1,0 +1,116 @@
+1506654631041	geckodriver	INFO	geckodriver 0.19.0
+1506654631043	geckodriver	INFO	Listening on 127.0.0.1:46897
+1506654632139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jnMXIAM4X9vw"
+1506654632835	Marionette	INFO	Enabled via --marionette
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10018): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10018): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10018): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10018): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506654635510	Marionette	INFO	Listening on port 47954
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506654635589	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506654635616	Marionette	DEBUG	loaded listener.js
+1506654635711	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506654636171	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506654636171	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506654638445	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stackoverflow.com/"
+1506654639899	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ssum-sec.casalemedia.com/usermatch?s=183712&cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D&C=1"
+1506654640657	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stackoverflow.com/"
+1506654640659	Marionette	DEBUG	Received DOM event "pageshow" for "https://stackoverflow.com/"
+1506654641525	Marionette	DEBUG	Received DOM event "pageshow" for "https://ssum-sec.casalemedia.com/usermatch?s=183712&cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D&C=1"
+1506654641907	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506654643275	Marionette	DEBUG	Received DOM event "pageshow" for "https://stackoverflow.com/"
+1506654643361	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stackoverflow.com/"
+1506654643699	Marionette	DEBUG	Received DOM event "pagehide" for "https://stackoverflow.com/"
+1506654643701	Marionette	DEBUG	Received DOM event "unload" for "https://stackoverflow.com/"
+1506654643793	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1506654643847	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ssum-sec.casalemedia.com/usermatch?s=183712&cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D"
+1506654644009	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f"
+1506654644203	Marionette	DEBUG	Received DOM event "pageshow" for "https://ssum-sec.casalemedia.com/usermatch?s=183712&cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D"
+1506654644296	Marionette	DEBUG	Received DOM event "pageshow" for "https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f"
+1506654644665	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:9958): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506654659420	geckodriver	INFO	geckodriver 0.19.0
+1506654659422	geckodriver	INFO	Listening on 127.0.0.1:47500
+1506654660507	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5odoDmjJP8PD"
+1506654661203	Marionette	INFO	Enabled via --marionette
+
+(firefox:10088): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10088): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:10088): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:10088): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10145): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10145): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10145): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:10145): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1506654663871	Marionette	INFO	Listening on port 51929
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506654663945	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506654663976	Marionette	DEBUG	loaded listener.js
+1506654664041	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506654664445	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506654664445	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506654664962	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stackoverflow.com/"
+1506654665736	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ssum-sec.casalemedia.com/usermatch?s=183712&cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D&C=1"
+1506654666299	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stackoverflow.com/"
+1506654666300	Marionette	DEBUG	Received DOM event "pageshow" for "https://stackoverflow.com/"
+1506654667470	Marionette	DEBUG	Received DOM event "pageshow" for "https://ssum-sec.casalemedia.com/usermatch?s=183712&cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D&C=1"
+1506654667621	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1506654667673	Marionette	DEBUG	Received DOM event "pageshow" for "https://stackoverflow.com/"
+1506654667763	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stackoverflow.com/"
+1506654668103	Marionette	DEBUG	Received DOM event "pagehide" for "https://stackoverflow.com/"
+1506654668105	Marionette	DEBUG	Received DOM event "unload" for "https://stackoverflow.com/"
+1506654668188	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f"
+1506654668249	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1506654668299	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ssum-sec.casalemedia.com/usermatch?s=183712&cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D"
+1506654668622	Marionette	DEBUG	Received DOM event "pageshow" for "https://ssum-sec.casalemedia.com/usermatch?s=183712&cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D"
+1506654668624	Marionette	DEBUG	Received DOM event "pageshow" for "https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f"
+1506654668983	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506654671005	Marionette	INFO	New connections will no longer be accepted
+Sandbox: Unexpected EOF, op 0 flags 01101 path /tmp/GeckoChildCrash10145.extra

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20171002 10:34:47.119" generator="Robot 3.0.2 (Python 2.7.6 on linux2)">
+<suite source="/home/anhvd/Downloads/WebDemo/my_login_tests/invalid_login.robot" id="s1" name="Invalid Login">
+<test id="s1-t1" name="Invalid Username">
+<kw type="setup" name="Open Browser To Login Page" library="resource">
+<kw name="Create Webdriver" library="Selenium2Library">
+<doc>Creates an instance of a WebDriver.</doc>
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>executable_path=${PATH DICT["${BROWSER}"]}</arg>
+</arguments>
+<msg timestamp="20171002 10:34:47.186" level="INFO">Creating an instance of the Chrome WebDriver</msg>
+<status status="PASS" endtime="20171002 10:34:48.543" starttime="20171002 10:34:47.185"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20171002 10:34:48.646" starttime="20171002 10:34:48.544"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${LOGIN URL}</arg>
+</arguments>
+<msg timestamp="20171002 10:34:48.646" level="INFO">Opening url 'https://www.facebook.com/'</msg>
+<status status="PASS" endtime="20171002 10:34:51.967" starttime="20171002 10:34:48.646"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20171002 10:34:51.967" starttime="20171002 10:34:51.967"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:51.967" starttime="20171002 10:34:47.185"></status>
+</kw>
+<kw name="Login With Invalid Credentials Should Fail">
+<arguments>
+<arg>${INVALID USER}</arg>
+<arg>${VALID PASSWORD}</arg>
+</arguments>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>Do Login</arg>
+</arguments>
+<assign>
+<var>${DO_LOGIN}</var>
+</assign>
+<msg timestamp="20171002 10:34:51.968" level="INFO">${DO_LOGIN} = Do Login</msg>
+<status status="PASS" endtime="20171002 10:34:51.968" starttime="20171002 10:34:51.968"></status>
+</kw>
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>${DO_LOGIN}</arg>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<kw name="Do Login" library="resource">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Username" library="resource">
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>email</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20171002 10:34:51.970" level="INFO">Typing text 'INVALID' into text field 'email'</msg>
+<status status="PASS" endtime="20171002 10:34:52.074" starttime="20171002 10:34:51.970"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:52.075" starttime="20171002 10:34:51.969"></status>
+</kw>
+<kw name="Input Password" library="resource">
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>pass</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20171002 10:34:52.075" level="INFO">Typing text 'DinhAnh2711@3011a' into text field 'pass'</msg>
+<status status="PASS" endtime="20171002 10:34:52.203" starttime="20171002 10:34:52.075"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:52.204" starttime="20171002 10:34:52.075"></status>
+</kw>
+<kw name="Submit Credentials" library="resource">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>loginbutton</arg>
+</arguments>
+<msg timestamp="20171002 10:34:52.204" level="INFO">Clicking element 'loginbutton'.</msg>
+<status status="PASS" endtime="20171002 10:34:58.013" starttime="20171002 10:34:52.204"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:58.014" starttime="20171002 10:34:52.204"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:58.014" starttime="20171002 10:34:51.969"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:58.014" starttime="20171002 10:34:51.969"></status>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20171002 10:34:58.014" level="INFO">${username} = INVALID</msg>
+<status status="PASS" endtime="20171002 10:34:58.014" starttime="20171002 10:34:58.014"></status>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20171002 10:34:58.015" level="INFO">${password} = DinhAnh2711@3011a</msg>
+<status status="PASS" endtime="20171002 10:34:58.015" starttime="20171002 10:34:58.015"></status>
+</kw>
+<kw name="Login Should Have Failed">
+<kw name="Location Should Be" library="Selenium2Library">
+<doc>Verifies that current URL is exactly `url`.</doc>
+<arguments>
+<arg>${ERROR URL}</arg>
+</arguments>
+<msg timestamp="20171002 10:34:58.019" level="INFO">Current location is 'https://www.facebook.com/login.php?login_attempt=1&amp;lwv=110'.</msg>
+<status status="PASS" endtime="20171002 10:34:58.019" starttime="20171002 10:34:58.015"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>"${username}"=="${INVALID USER}"</arg>
+<arg>Alert URL Should Be Register URL</arg>
+<arg>ELSE IF</arg>
+<arg>"${username}"=="${EMPTY}"</arg>
+<arg>Alert URL Should Be Register URL</arg>
+<arg>ELSE IF</arg>
+<arg>"${password}"=="${INVALID PASSWORD}"</arg>
+<arg>Alert URL Should Be Forget Password URL</arg>
+<arg>ELSE IF</arg>
+<arg>"${password}"=="${EMPTY}"</arg>
+<arg>Alert URL Should Be Forget Password URL</arg>
+</arguments>
+<kw name="Alert URL Should Be Register URL">
+<kw name="Get Element Attribute" library="Selenium2Library">
+<doc>Return value of element attribute.</doc>
+<arguments>
+<arg>xpath=//*[@id="globalContainer"]/div[3]/div/div/div/a@href</arg>
+</arguments>
+<assign>
+<var>${alert url}</var>
+</assign>
+<msg timestamp="20171002 10:34:58.044" level="INFO">${alert url} = https://www.facebook.com/r.php</msg>
+<status status="PASS" endtime="20171002 10:34:58.044" starttime="20171002 10:34:58.020"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>"${alert url}"=="${REGISTER URL}"</arg>
+</arguments>
+<status status="PASS" endtime="20171002 10:34:58.045" starttime="20171002 10:34:58.044"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:58.045" starttime="20171002 10:34:58.020"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:58.045" starttime="20171002 10:34:58.019"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:58.045" starttime="20171002 10:34:58.015"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${SLEEP TIME}</arg>
+</arguments>
+<msg timestamp="20171002 10:34:59.046" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20171002 10:34:59.046" starttime="20171002 10:34:58.045"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:59.047" starttime="20171002 10:34:51.968"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20171002 10:34:59.106" starttime="20171002 10:34:59.047"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:34:59.106" critical="yes" starttime="20171002 10:34:47.185"></status>
+</test>
+<test id="s1-t2" name="Invalid Password">
+<kw type="setup" name="Open Browser To Login Page" library="resource">
+<kw name="Create Webdriver" library="Selenium2Library">
+<doc>Creates an instance of a WebDriver.</doc>
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>executable_path=${PATH DICT["${BROWSER}"]}</arg>
+</arguments>
+<msg timestamp="20171002 10:34:59.110" level="INFO">Creating an instance of the Chrome WebDriver</msg>
+<status status="PASS" endtime="20171002 10:35:00.523" starttime="20171002 10:34:59.109"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20171002 10:35:00.625" starttime="20171002 10:35:00.523"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${LOGIN URL}</arg>
+</arguments>
+<msg timestamp="20171002 10:35:00.625" level="INFO">Opening url 'https://www.facebook.com/'</msg>
+<status status="PASS" endtime="20171002 10:35:02.794" starttime="20171002 10:35:00.625"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20171002 10:35:02.795" starttime="20171002 10:35:02.794"></status>
+</kw>
+<status status="PASS" endtime="20171002 10:35:02.795" starttime="20171002 10:34:59.108"></status>
+</kw>
+<kw name="Login With Invalid Credentials Should Fail">
+<arguments>
+<arg>${VALID USER}</arg>
+<arg>${INVALID PASSWORD}</arg>
+</arguments>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>Do Login</arg>
+</arguments>
+<assign>
+<var>${DO_LOGIN}</var>
+</assign>
+<msg timestamp="20171002 10:35:02.798" level="INFO">${DO_LOGIN} = Do Login</msg>
+<status status="PASS" endtime="20171002 10:35:02.798" starttime="20171002 10:35:02.798"></status>
+</kw>
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>${DO_LOGIN}</arg>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<kw name="Do Login" library="resource">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Username" library="resource">
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>email</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20171002 10:35:02.800" level="INFO">Typing text '01655154655' into text field 'email'</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" endtime="20171002 10:35:03.012" starttime="20171002 10:35:03.012"></status>
+</kw>
+<msg timestamp="20171002 10:35:03.012" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
+<status status="FAIL" endtime="20171002 10:35:03.012" starttime="20171002 10:35:02.800"></status>
+</kw>
+<status status="FAIL" endtime="20171002 10:35:03.012" starttime="20171002 10:35:02.800"></status>
+</kw>
+<status status="FAIL" endtime="20171002 10:35:03.013" starttime="20171002 10:35:02.799"></status>
+</kw>
+<status status="FAIL" endtime="20171002 10:35:03.013" starttime="20171002 10:35:02.799"></status>
+</kw>
+<status status="FAIL" endtime="20171002 10:35:03.013" starttime="20171002 10:35:02.797"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20171002 10:35:03.014" starttime="20171002 10:35:03.013"></status>
+</kw>
+<status status="FAIL" endtime="20171002 10:35:03.014" critical="yes" starttime="20171002 10:34:59.107">Execution terminated by signal</status>
+</test>
+<test id="s1-t3" name="Invalid Username And Password">
+<tags>
+<tag>robot-exit</tag>
+</tags>
+<status status="FAIL" endtime="20171002 10:35:03.015" critical="yes" starttime="20171002 10:35:03.014">Test execution stopped due to a fatal error.</status>
+</test>
+<test id="s1-t4" name="Empty Username">
+<tags>
+<tag>robot-exit</tag>
+</tags>
+<status status="FAIL" endtime="20171002 10:35:03.015" critical="yes" starttime="20171002 10:35:03.015">Test execution stopped due to a fatal error.</status>
+</test>
+<test id="s1-t5" name="Empty Password">
+<tags>
+<tag>robot-exit</tag>
+</tags>
+<status status="FAIL" endtime="20171002 10:35:03.016" critical="yes" starttime="20171002 10:35:03.016">Test execution stopped due to a fatal error.</status>
+</test>
+<test id="s1-t6" name="Empty Username And Password">
+<tags>
+<tag>robot-exit</tag>
+</tags>
+<status status="FAIL" endtime="20171002 10:35:03.017" critical="yes" starttime="20171002 10:35:03.017">Test execution stopped due to a fatal error.</status>
+</test>
+<doc>A test suite containing tests related to invalid login.</doc>
+<status status="FAIL" endtime="20171002 10:35:03.018" starttime="20171002 10:34:47.120"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="5" pass="1">Critical Tests</stat>
+<stat fail="5" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat info="combined" fail="1" combined="NOT robot-exit" pass="1">NOT robot-exit</stat>
+<stat fail="4" pass="0">robot-exit</stat>
+</tag>
+<suite>
+<stat fail="5" id="s1" name="Invalid Login" pass="1">Invalid Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20171002 10:35:03.012" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
+</errors>
+</robot>

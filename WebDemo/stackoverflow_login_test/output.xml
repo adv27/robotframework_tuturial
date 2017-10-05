@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170929 12:01:57.498" generator="Robot 3.0.2 (Python 2.7.6 on linux2)">
+<suite source="/home/anhvd/Downloads/WebDemo/stackoverflow_login_test/invalid_login.robot" id="s1" name="Invalid Login">
+<kw type="setup" name="Run Keywords" library="BuiltIn">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>Open Browser to home page</arg>
+<arg>Go to login page from home page</arg>
+<arg>Login page should be open</arg>
+</arguments>
+<kw name="Open Browser to home page">
+<kw name="Create Webdriver" library="Selenium2Library">
+<doc>Creates an instance of a WebDriver.</doc>
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>executable_path=${PATH_DICT["${BROWSER.lower()}"]}</arg>
+</arguments>
+<msg timestamp="20170929 12:01:57.562" level="INFO">Creating an instance of the Chrome WebDriver</msg>
+<status status="PASS" endtime="20170929 12:01:59.014" starttime="20170929 12:01:57.561"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170929 12:01:59.116" starttime="20170929 12:01:59.014"></status>
+</kw>
+<kw name="Go to home page">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${HOME_PAGE_URL}</arg>
+</arguments>
+<msg timestamp="20170929 12:01:59.116" level="INFO">Opening url 'https://stackoverflow.com/'</msg>
+<status status="PASS" endtime="20170929 12:02:07.802" starttime="20170929 12:01:59.116"></status>
+</kw>
+<kw name="Home page should be open">
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>${HOME_PAGE_TITLE}</arg>
+</arguments>
+<msg timestamp="20170929 12:02:07.810" level="INFO">Page title is 'Stack Overflow - Where Developers Learn, Share, &amp; Build Careers'.</msg>
+<status status="PASS" endtime="20170929 12:02:07.810" starttime="20170929 12:02:07.803"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:07.810" starttime="20170929 12:02:07.803"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:07.810" starttime="20170929 12:01:59.116"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:07.810" starttime="20170929 12:01:57.561"></status>
+</kw>
+<kw name="Go to login page from home page">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=/html/body/header/div/div[2]/div/a[1]</arg>
+</arguments>
+<msg timestamp="20170929 12:02:07.811" level="INFO">Clicking element 'xpath=/html/body/header/div/div[2]/div/a[1]'.</msg>
+<status status="PASS" endtime="20170929 12:02:08.953" starttime="20170929 12:02:07.811"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:08.953" starttime="20170929 12:02:07.810"></status>
+</kw>
+<kw name="Login page should be open">
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>${LOGIN_PAGE_TITLE}</arg>
+</arguments>
+<msg timestamp="20170929 12:02:08.958" level="INFO">Page title is 'Log In - Stack Overflow'.</msg>
+<status status="PASS" endtime="20170929 12:02:08.959" starttime="20170929 12:02:08.954"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:08.959" starttime="20170929 12:02:08.954"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:08.959" starttime="20170929 12:01:57.561"></status>
+</kw>
+<test id="s1-t1" name="Login with random username and password">
+<kw name="Get random string">
+<assign>
+<var>${random_string}</var>
+</assign>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>8</arg>
+<arg>[LETTERS]</arg>
+</arguments>
+<assign>
+<var>${random_string}</var>
+</assign>
+<msg timestamp="20170929 12:02:08.960" level="INFO">${random_string} = xGUzGwkc</msg>
+<status status="PASS" endtime="20170929 12:02:08.960" starttime="20170929 12:02:08.960"></status>
+</kw>
+<msg timestamp="20170929 12:02:08.961" level="INFO">${random_string} = xGUzGwkc</msg>
+<status status="PASS" endtime="20170929 12:02:08.961" starttime="20170929 12:02:08.960"></status>
+</kw>
+<kw name="Input username">
+<arguments>
+<arg>${random_string}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>name=email</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20170929 12:02:08.963" level="INFO">Typing text 'xGUzGwkc' into text field 'name=email'</msg>
+<status status="PASS" endtime="20170929 12:02:09.068" starttime="20170929 12:02:08.962"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:09.068" starttime="20170929 12:02:08.961"></status>
+</kw>
+<kw name="Get random string">
+<assign>
+<var>${random_string}</var>
+</assign>
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>8</arg>
+<arg>[LETTERS]</arg>
+</arguments>
+<assign>
+<var>${random_string}</var>
+</assign>
+<msg timestamp="20170929 12:02:09.069" level="INFO">${random_string} = yjMumKHN</msg>
+<status status="PASS" endtime="20170929 12:02:09.069" starttime="20170929 12:02:09.069"></status>
+</kw>
+<msg timestamp="20170929 12:02:09.069" level="INFO">${random_string} = yjMumKHN</msg>
+<status status="PASS" endtime="20170929 12:02:09.069" starttime="20170929 12:02:09.069"></status>
+</kw>
+<kw name="Input password">
+<arguments>
+<arg>${random_string}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>name=password</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20170929 12:02:09.070" level="INFO">Typing text 'yjMumKHN' into text field 'name=password'</msg>
+<status status="PASS" endtime="20170929 12:02:09.161" starttime="20170929 12:02:09.070"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:09.161" starttime="20170929 12:02:09.069"></status>
+</kw>
+<kw name="Submit Credentials">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=submit-button</arg>
+</arguments>
+<msg timestamp="20170929 12:02:09.162" level="INFO">Clicking element 'id=submit-button'.</msg>
+<status status="PASS" endtime="20170929 12:02:09.243" starttime="20170929 12:02:09.162"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:09.243" starttime="20170929 12:02:09.162"></status>
+</kw>
+<kw name="Login should have failed">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=/html/body/div[3]/div[2]</arg>
+</arguments>
+<status status="PASS" endtime="20170929 12:02:10.915" starttime="20170929 12:02:09.244"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:10.915" starttime="20170929 12:02:09.243"></status>
+</kw>
+<status status="PASS" endtime="20170929 12:02:10.915" critical="yes" starttime="20170929 12:02:08.959"></status>
+</test>
+<status status="PASS" endtime="20170929 12:02:10.916" starttime="20170929 12:01:57.499"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Invalid Login" pass="1">Invalid Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
