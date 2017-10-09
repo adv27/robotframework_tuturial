@@ -3,9 +3,9 @@ Library           Selenium2Library
 Library           Collections
 
 *** Variables ***
-&{PATH DICT}            Firefox=./webdriver/geckodriver
-...                     Chrome=./webdriver/chromedriver
-${BROWSER}              Firefox
+&{PATH DICT}            Edge=./webdriver/MicrosoftWebDriver.exe
+...                     Chrome=./webdriver/chromedriver.exe
+${BROWSER}              Edge
 ${DELAY}                0
 ${SLEEP TIME}           1s
 ${LOGIN URL}            https://www.facebook.com/

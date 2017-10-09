@@ -4,11 +4,11 @@ Suite Setup         Open browser using Webdriver
 Suite Teardown      Close All Browsers
 
 *** Variables ***
-&{PATH DICT}            firefox=/home/anhvd/Downloads/Webdriver/geckodriver
-...                     chrome=/home/anhvd/Downloads/chromedriver
+&{PATH DICT}            edge=./Webdriver/MicrosoftWebDriver.exe
+...                     chrome=./Webdriver/chromedriver.exe
 ${BROWSER}              Chrome
-${EXECUTEABLE PATH}     /home/anhvd/Downloads/chromedriver
 ${HOMEPAGE}             http://google.com.vn
+${DELAY}                0.5s
 
 *** Test Cases ***
 Google search then find
@@ -28,6 +28,7 @@ Google and check result
 Open browser using Webdriver
     Create Webdriver    ${BROWSER}    executable_path=${PATH DICT["${BROWSER.lower()}"]}
     Maximize Browser Window
+    Set Selenium Speed      ${DELAY}
 
 Go to homepage
     Go To               ${HOMEPAGE}
